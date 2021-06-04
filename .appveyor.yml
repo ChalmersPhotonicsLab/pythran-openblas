@@ -1,12 +1,14 @@
 platform:
     - x64
 
+image: Visual Studio 2019
+
 environment:
 
   matrix:
     #- PYTHON: "C:\\Python35-{platform}"
-    - PYTHON: "C:\\Python36-%PLATFORM%"
-    - PYTHON: "C:\\Python37-%PLATFORM%"
+    #- PYTHON: "C:\\Python36-%PLATFORM%"
+    #- PYTHON: "C:\\Python37-%PLATFORM%"
     - PYTHON: "C:\\Python38-%PLATFORM%"
     - PYTHON: "C:\\Python39-%PLATFORM%"
 
